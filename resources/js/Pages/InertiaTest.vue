@@ -11,7 +11,7 @@ Inertiaテストです。<br><br>
 <a href="/">aタグです。ホームに戻る</a><br><br>
 <Link :href="route('inertia.index')">名前付きルートの確認です</Link><br><br>
 <Link :href="route('inertia.create')">フォームの確認です</Link><br><br>
-<Link :href="route('inertia.show', { id: 100 })">ルートパラメータのテストです</Link><br><br>
+<Link :href="route('inertia.show', { id: 1 })">ルートパラメータのテストです</Link><br><br>
 
 <div class="mb-8"></div>
 <input type="text" name="newTitle" v-model="newTitle"><br>
